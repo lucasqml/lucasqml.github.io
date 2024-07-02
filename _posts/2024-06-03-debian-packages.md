@@ -8,6 +8,7 @@ Nossa primeira abordagem foi usar contêineres Docker. Este método parecia idea
 
 Nossa configuração inicial de VM funcionou bem até chegarmos à etapa de construção do pacote. Havíamos alocado apenas 6 GB de espaço em disco para a VM, com ainda menos para a partição `/boot`. Como as dependências necessárias precisavam ser instaladas na partição `/boot`, e redimensioná-la não era simples, tivemos que começar tudo de novo.
 
+
 Para a proxima tentativa decidimos alocar 20 GB de espaço em disco, o que permitiu construir o pacote com sucesso. Porém, tivemos problemas ao executar os testes automatizados do pacote. Conversamos com outros colegas, e vimos que eles também enfrentaram problemas semelhantes, e sem uma solução fácil à vista, decidimos direcionar nossos esforços para outras contribuições do curso.
 
 Os arquivos nos quais trabalhamos durante esse processo estão disponíveis [aqui](https://drive.google.com/file/d/1TW8oGSmIOW6DuhfoYtpxRay4vZvdxxfO/view?usp=drive_link)
